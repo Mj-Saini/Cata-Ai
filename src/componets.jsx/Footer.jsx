@@ -13,22 +13,36 @@ function Footer() {
               <div className="row">
                 <div className="col-lg-6">
                   <input
-                    className="bg_primary outline_none px-3 rounded-1 py_13_custom w-100 fw-semibold fs_xl text_greyLight"
+                    className="bg_primary outline_none px-3 rounded-1 py_custom w-100 fw-semibold fs_xl text_greyLight"
                     type="text"
                     placeholder="Name"
                   />
                   <input
-                    className="bg_primary outline_none px-3 rounded-1 py_13_custom w-100 fw-semibold fs_xl text_greyLight mt-2"
+                    className="bg_primary outline_none px-3 rounded-1 py_custom w-100 fw-semibold fs_xl text_greyLight mt-2"
                     type="text"
                     placeholder="Email"
                   />
-                  <div className="d-flex justify-content-between gap-xl-2 gap-1 mt-2">
+                  <div className="d-flex justify-content-sm-between justify-content-center gap-2 gap-1 mt-2">
                     <a
-                      className=" fw-semibold fs_xl services_btn px-xl-3 px-1 px-sm-4 px-lg-2  py_13_custom rounded-1 white_space"
+                      className=" fw-semibold fs_xl financial_btn px-xl-3 px-1 px-sm-4 px-lg-2  py_custom rounded-1 white_space"
                       href="#"
                     >
                       <svg
-                        className="pe-2"
+                        className="fill_dots pe-2"
+                        width="25"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          opacity="0.7"
+                          d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
+                          fill="#1AD079"
+                        />
+                      </svg>
+                      <svg
+                        className="pe-2 dots_show"
                         width="25"
                         height="16"
                         viewBox="0 0 17 16"
@@ -44,11 +58,25 @@ function Footer() {
                       Financial Services
                     </a>
                     <a
-                      className=" fw-semibold fs_xl services_btn px-xl-4 px-2 px-sm-5 px-lg-2 py_13_custom rounded-1 white_space"
+                      className=" fw-semibold fs_xl financial_btn px-xl-3 px-1 px-sm-4 px-lg-2 w-50  py_custom rounded-1 white_space"
                       href="#"
                     >
                       <svg
-                        className="pe-2"
+                        className="fill_dots pe-2"
+                        width="25"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          opacity="0.7"
+                          d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
+                          fill="#1AD079"
+                        />
+                      </svg>
+                      <svg
+                        className="pe-2 dots_show"
                         width="25"
                         height="16"
                         viewBox="0 0 17 16"
@@ -165,7 +193,7 @@ function Footer() {
                     </span>
                   </div>
                 </div>
-                <div className="col-lg-3 col-3">
+                <div className="col-lg-3 col-12">
                   <div className="d-flex justify-content-end align-items-center h-100">
                     <span>
                       <img src={Upperarrow} alt="" />
@@ -182,17 +210,17 @@ function Footer() {
                 <p className="text-white fw-normal fs_lg opacity_07 mb-0">
                   All rights reserved. ©20022 Catalyze AI
                 </p>
-                <p className="text-white fw-normal fs_lg opacity_07 border-2 border-bottom mb-0 me-xl-5">
+                <p className="text-white fw-normal fs_lg opacity_07 border-2 border-bottom mb-0 me-xl-5 cursor_pointer">
                   Do not sell my data
                 </p>
               </div>
             </div>
             <div className="col-lg-5 col-xl-6">
-              <div className="d-flex justify-content-lg-center justify-content-between gap-5 ps-lg-5 ms-lg-5">
+              <div className="d-flex justify-content-lg-center justify-content-between gap-5 ps-lg-5 ms-lg-5 cursor_pointer">
                 <p className="text-white fw-normal fs_lg opacity_07 border-2 border-bottom mb-0">
                   Terms & Conditions
                 </p>
-                <p className="text-white fw-normal fs_lg opacity_07 border-2 border-bottom mb-0 ">
+                <p className="text-white fw-normal fs_lg opacity_07 border-2 border-bottom mb-0 cursor_pointer">
                   Privacy Policy
                 </p>
               </div>

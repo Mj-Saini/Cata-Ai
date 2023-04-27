@@ -247,44 +247,48 @@ function Hero() {
                   distribution of letters, as opposed to using 'Content here,
                   content here', making it the look at you.
                 </p>
-                <div className="d-flex gap-2 mt-lg-5 mt-4 z_index-1">
-                  <div
-                    style={{ zIndex: "-1" }}
-                    className="bg_green rounded-2 px-sm-4 px-3 py-sm-4 py-2 w-50 position-relative overflow-hidden z_index-1"
-                  >
-                    <div className="overlay transition400"></div>
-
-                    <p className=" fw-semibold fs_xl text-white opacity_07 pt-2 mb-0 px-sm-3">
-                      boost your
-                    </p>
-                    <h2 className=" fw-semibold text-white fs_2xl mb-sm-4 mb-2 px-sm-3">
-                      Financial <span className="d-block">Services</span>
-                    </h2>
-                    <div className="pt-2 px-sm-3 pb-3 d-flex justify-content-between cursor_pointer align-items-center">
-                      <a className=" fw-semibold text-white fs_xl" href="#">
-                        Learn more
-                      </a>
-                      <img src={arrow} alt="arrow" />
-                    </div>
-                  </div>
-                  <div
-                    style={{ zIndex: "-1" }}
-                    className="bg_blue position-relative rounded-2 px-sm-4 px-3 py-sm-4 py-2 w-50 d-flex flex-column justify-content-between overflow-hidden"
-                  >
-                    <article>
+                <div className="d-flex gap-2 mt-lg-5 mt-4 z_index-1 ">
+                  <div className="HOVER_Blue  w-100 d-flex flex-column justify-content-between rounded-3">
+                    <div
+                      style={{ zIndex: "-1" }}
+                      className="bg_green h-100 rounded-2 px-sm-4 px-3 py-sm-4 py-2 position-relative overflow-hidden z_index-1"
+                    >
                       <div className="overlay transition400"></div>
+
                       <p className=" fw-semibold fs_xl text-white opacity_07 pt-2 mb-0 px-sm-3">
                         boost your
                       </p>
-                      <h2 className=" fw-semibold text-white fs_2xl mb-sm-4 mb-2 px-sm-3 pt-2">
-                        Real Estate
+                      <h2 className=" fw-semibold text-white fs_2xl mb-sm-4 mb-2 px-sm-3">
+                        Financial <span className="d-block">Services</span>
                       </h2>
-                    </article>
-                    <div className="pt-2 px-sm-3 d-flex justify-content-between cursor_pointer align-items-center">
-                      <a className=" fw-semibold text-white fs_xl" href="#">
-                        Learn more
-                      </a>
-                      <img src={arrow} alt="arrow" />
+                      <div className="pt-2 px-sm-3 d-flex justify-content-between cursor_pointer align-items-center">
+                        <a className=" fw-semibold text-white fs_xl" href="#">
+                          Learn more
+                        </a>
+                        <img src={arrow} alt="arrow" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="HOVER_GREEN  w-100 d-flex flex-column justify-content-between ">
+                    <div
+                      style={{ zIndex: "-1" }}
+                      className="bg_blue h-100 position-relative rounded-2 px-sm-4 px-3 py-sm-4 py-2 w-100 d-flex flex-column justify-content-between overflow-hidden"
+                    >
+                      <div>
+                        <div className="overlay transition400"></div>
+                        <p className=" fw-semibold fs_xl text-white opacity_07 pt-2 mb-0 px-sm-3">
+                          boost your
+                        </p>
+                        <h2 className=" fw-semibold text-white fs_2xl mb-sm-4 mb-2 px-sm-3 pt-2">
+                          Real Estate
+                        </h2>
+                      </div>
+                      <div className="pt-2 px-sm-3 d-flex justify-content-between cursor_pointer align-items-center">
+                        <a className=" fw-semibold text-white fs_xl" href="#">
+                          Learn more
+                        </a>
+                        <img src={arrow} alt="arrow" />
+                      </div>
                     </div>
                   </div>
                 </div>

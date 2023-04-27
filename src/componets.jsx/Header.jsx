@@ -125,40 +125,26 @@ function Header() {
                   </a>
                 </div>{" "}
                 <ul className="d-flex flex-column gap-3 gap-xl-5 pt-3 list-unstyled mb-0 align-items-center">
-                  <span className="d-flex align-items-center">
-                    <a href="#">
-                      <img
-                        className="range_img_size"
-                        src={financial}
-                        alt="money"
-                      />
-                    </a>{" "}
+                  <span className="d-flex align-items-center pb-3">
                     <a
                       onClick={() => setNavShow(!navShow)}
-                      className="fw-semibold fs_xl text_green ps-2 d-inline-block"
+                      className="fw-semibold fs_xl text_green ps-sm-2 d-inline-block"
                       href="#"
                     >
                       Financial Services
                     </a>
                   </span>
                   <span className="d-flex align-items-center">
-                    <a onClick={() => setNavShow(!navShow)} href="#">
-                      <img
-                        className="range_img_size"
-                        src={real}
-                        alt="real-estate"
-                      />
-                    </a>
                     <a
                       onClick={() => setNavShow(!navShow)}
-                      className="fw-semibold fs_xl text_green ps-2 d-inline-block"
+                      className="fw-semibold fs_xl text_green ps-sm-2 d-inline-block"
                       href="#"
                     >
                       Real Estate
                     </a>
                   </span>
                 </ul>
-                <ul className="d-flex flex-column mb-0 gap-4">
+                <ul className="d-flex flex-column mb-0 gap-4 ps-0">
                   <span className=" primary_btn text-center">
                     <a
                       onClick={() => setNavShow(!navShow)}
